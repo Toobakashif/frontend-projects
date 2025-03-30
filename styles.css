@@ -14,11 +14,15 @@ body{
     align-items: center; /* Center vertically */
     font-weight: 400; 
 }
-.main{
+main{
     max-width: 1440px;  /* Ensures it doesn’t exceed 1440px */
     max-height: 960px;/* Ensures it doesn’t exceed 960px */
     margin: 0 auto;     /* Centers the content */
-    padding: 1.25rem;      /* Adds some space around */
+    padding: 1.25rem; 
+    display: flex;
+    justify-content: center; 
+   align-items: center; /* Center vertically */
+   height: 100vh; /* Full viewport height */     /* Adds some space around */
 }
 .container{
   display: grid;
