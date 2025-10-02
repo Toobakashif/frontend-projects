@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    background:#1A1B21;
+    font-family: inter;
+}
+.container{
+    width:317px; 
+    margin-top:44px;
+    margin-left:116px;
+   background-color: #1E1F26;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+.img{
+    background-image: url("/img/girl.png");
+    background-position: 53% 20% ;
+    width:317px;
+    height:317px;
+    object-fit: cover;
+    
+}
+section{
+    color:white;
+   display: flex;
+   flex-direction: column;
+}
+h1{
+    font-weight: 700;
+    font-style: bold;
+    font-size: 1.5625rem;
+    text-align: center;
+    line-height: 100%;
+    margin-top: 21px;
+}
+header > section > span{
+    color:#F3BF99;
+    text-align: center;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 0.8rem;
+    line-height: 100%;
+}
+.web{
+    color:#F5F5F5;
+    font-size: 0.64rem;
+    line-height: 150%;
+    margin-top:0.550625rem;
+}
+.button_container{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap:17px;
+    justify-content: center;
+}
+a{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    height: 34px;
+    width: 115px;
+    padding:9px 11px 9px 13px;
+    border-radius: 6px;
+    align-content: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16;
+    text-decoration: none;
+    
+}
+.email-btn{
+    border: 1px solid #D1D5DB;
+    outline-offset: -1px; 
+    color: #1E1F26;
+    background-color: white;
+}
+.linkedin-btn{
+    background: #5093E2;
+    border: none;
+    color: white;
+}
+.section_about,
+.section_interest{
+    display: flex;
+    grid-template-columns: 1fr;
+    margin-left: 33px;
+}
+.section_about{
+       margin-top: 33px;
+}
+.section_interest{
+    margin-bottom: 25px;
+}
+
+.section_about > span ,
+ .section_interest > span{
+    font-weight: bold;
+    font-size: 1rem;
+    line-height:150%;
+    color:#F5F5F5;
+}
+
+.section_about >p , 
+.section_interest > p{
+    color: #DCDCDC;
+    font-weight:400;
+    font-size: 0.64rem;
+}
+footer{
+    background-color: #161619;
+    height: 64px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 24px;
+}
