@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ableton</title>
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+    <!--header will load here-->
+    <div id="header"></div>
+    <div class="nav-bar">
+    <a>About</a>
+    <a>Jobs</a>
+    <a>Apprenticeships</a>
+    </div>
+      <!--About Page  will load here-->
+    <div id="about-page"></div>
+    <div id="footer"></div>
+    <script src="assets/js/main.js"></script>
+    <script>
+  loadComponent("header", "component/header.html");
+  loadComponent("about-page", "pages/about.html");
+  loadComponent("footer","component/footer.html");
+</script>
+</body>
+</html>
